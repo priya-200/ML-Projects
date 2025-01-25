@@ -7,4 +7,5 @@ catboost
 xgboost
 dill
 Flask
--e .
+-e . # This pip install is used to install a pacakge in edibile mode
+#Any updates to your local code will automatically be reflected in the installed package.
