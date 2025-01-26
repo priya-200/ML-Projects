@@ -2,7 +2,7 @@
 The sys module in Python provides various functions and variables that are used to manipulate different parts of the Python runtime environment.
 '''
 import sys
-import logging
+from src.logger import logging
 
 
 def error_message_details(error,error_detail:sys):
@@ -20,4 +20,3 @@ class CustomeException(Exception):
 
     def __str__(self):
         return self.error_message
-    
